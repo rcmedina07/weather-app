@@ -1,0 +1,153 @@
+
+body {
+  font-family: BlinMacSystemFont,Segoe UI, Roboto, Oxygen-Sans, Cantarell, Helvetica, Neue, sans-serif;
+  background-color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 100px;
+  font-weight: 700;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+}
+nav {
+  background-color: cornflowerblue;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.icon {
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+ }
+ .navbar {
+	margin-bottom: 0;
+}
+
+ .home-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+  
+.button {
+  color: #e6e6e6;
+  background: mediumseagreen;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background:
+  linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  position: absolute;
+   top: 30%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -250px;
+}
+ .column input {
+  border-radius: 3px;
+  margin: 0px auto;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  font-size: 16px;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.reset {
+  border: none;
+  background: transparent;
+  color: #d0021b;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+ .row input {
+  border-radius: 3px;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  font-size: 16px;
+  width: 50%;
+
+}
+
+.row .button {
+  color: #e6e6e6;
+  background: mediumseagreen;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 140px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
